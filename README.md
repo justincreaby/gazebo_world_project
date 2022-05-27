@@ -15,3 +15,9 @@ Let’s summarize what you should do in this project to create a simulation worl
 5. Write a C++ World Plugin to interact with your world. Your code should display “Welcome to ’s World!” message as soon as you launch the Gazebo world file.
 
 These tasks are just the basic requirements for you to pass the project! Feel free to have fun designing and importing multiple models.
+
+Export
+------
+May need to run the following after build the plugin
+
+    export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/parallels/Udacity/RoboticsSoftwareEngineer/gazebo_world_project/myrobot/build
